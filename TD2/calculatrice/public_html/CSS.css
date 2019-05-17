@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7 mars 2019, 09:43:18
+    Author     : abourrelly
+*/
+
+#calculatrice
+{
+    position: absolute;
+    left: 300px;
+    width: 400px;
+    height: 600px;
+    background-color: lightgrey;
+    border-style: ridge;
+    border-width: 10px;
+    border-radius: 5px;
+}
+
+#ecran
+{
+    position: relative;
+    background-color: gray;
+    height: 40px;
+    width: 350px;
+    left: 25px;
+    top: 25px;
+    border-color: black;
+    border-style: solid;
+    color: white;
+    font-size: 30px;
+    text-align: right;
+    font-family: fantasy;
+}
+
+#calNom{
+    position: relative;
+    left: 30px;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+#boutons
+{
+
+}
+
+.num,.fct
+{
+    position: relative;
+    width: 87px;
+    height: 87px;
+
+    font-size: 30px;
+    background-color: lightcyan;
+    border-radius: 10px;
+    border-color: black;
+
+}
+
+#reset,.par,.pi
+{
+    position: relative;
+    width: 87px;
+    height: 40px;
+
+    font-size: 20px;
+    background-color: lightcyan;
+    border-radius: 10px;
+    border-color: black;
+}
+
+fieldset 
+{
+    border:0
+}

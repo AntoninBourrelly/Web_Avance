@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TD1EX1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="formExo1.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <form>
+
+
+
+            <fieldset id="Formulaire">
+                <legend>Formulaire d'inscription</legend>
+                <fieldset id="Civilite">
+                    <legend>Civilité</legend>
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" /><br /><br/>
+
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" id="prenom" /><br /> <br/>
+
+                    <label for="ville">Ville :</label>
+                    <select id="ville">
+                        <option value="autres">Autres</option>
+                        <option value="leMans">Le Mans</option>
+                        <option value="monce">Moncé-en-Belin</option>
+                        <option value="connerre">Connerré</option>
+                    </select><br /> <br/>
+                    
+                    <label for="email">Email :</label>
+                    <input type="text" id="email" /><br /><br/>
+                    
+                    <label for="site">Site :</label>
+                    <input type="text" id="site" /><br /><br/>
+
+                    <table>
+                        <tr>
+                            <td style="width: 85px">Sexe:</td>
+                            <td><input type="radio" name="sexe" id="sexe" checked="checked"/>Homme <br/>
+                                <input type="radio" name="sexe" />Femme<br /> 
+                                <input type="radio" name="sexe" />Je ne souhaite pas le dire</td>
+                        </tr>
+                    </table> <br />
+
+                    <label for="photo">Photo :</label>
+                    <input type="file" name="photo" id="photo" /><br />
+                </fieldset>    
+
+
+
+                <fieldset id="Savoirs">
+                    <legend>Savoirs</legend>
+                    <br/>
+                    <label for="SE">Système :</label>
+                    <select id="SE">
+                        <option value="selectionnez">Sélectionnez un SE</option>
+                    </select>
+                    <div id="versiondiv">
+                        <table id="versiontable">
+                            <tr>
+                                <td>Version</td>
+                            </tr>
+                            <tr>
+                                <td><label for="version"></label>
+                                    <select id="version">
+                                        <option value="versionchoix"></option>
+                                    </select>
+                                </td>
+                            </tr>
+                        </table> 
+                    </div> <br/> <br/>
+                    
+                    Langages de programmation<br/> <br/>
+                    
+                    <input type="checkbox" name="java" id="java" value="java" /> JAVA <br/> <br/>
+                    <input type="checkbox" name="c" id="c" value="c" /> C<br/> <br/>
+                    <input type="checkbox" name="php" id="php" value="php" /> PHP<br/> <br/>
+                    <input type="checkbox" name="autre" id="autre" value="autre" /> Autres <br/> <br/>
+
+                </fieldset>
+
+
+
+                <fieldset id="Connexion">
+                    <legend>Paramètres de connexion</legend>
+                    
+                    <label for="login">Login :</label>
+                    <input type="text" id="login" /><br /><br/>
+                    
+                    <label for="mdp">Mot de passe :</label>
+                    <input type="text" id="mdp" /><br /><br/>
+                    
+                    <label for="confmdp">Confimation du mot de passe :</label>
+                    <input type="text" id="confmdp" /><br /><br/>
+                </fieldset>
+
+
+
+
+                <input type="submit" value="Inscription"/>
+                <input type="reset" value="Effacer les informations de ce formulaire"/>
+            </fieldset>
+        </form>
+
+
+    </body>
+</html>
